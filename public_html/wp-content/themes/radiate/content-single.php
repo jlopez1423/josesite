@@ -10,7 +10,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<a href= "<?= get_field( 'link' ) ?>" target="_blank"><h1 class="entry-title"><?php the_title(); ?></h1></a>
 
 		<div class="entry-meta">
 			<?php radiate_posted_on(); ?>

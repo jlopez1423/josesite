@@ -62,7 +62,7 @@ get_header(); ?>
 							_e( 'Links', 'radiate' );
 
 						else :
-							_e( 'Archives', 'radiate' );
+							_e( ucfirst( get_post_type() ), 'radiate' );
 
 						endif;
 					?>
